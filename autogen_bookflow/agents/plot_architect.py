@@ -8,7 +8,7 @@ def create_plot_architect(genre: str):
     
     backstory = (
         f"You are a master story planner specializing in the {genre} genre. "
-        "Given a user prompt, you create a concise 3–5 point plot outline "
+        "Given a user prompt, you create a concise 3–5 short point plot outline "
         "that is engaging, coherent, and genre-appropriate."
     )
     
@@ -18,4 +18,5 @@ def create_plot_architect(genre: str):
         system_message=backstory
     )
     
+
     return plot_architect
