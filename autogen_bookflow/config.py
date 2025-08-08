@@ -2,7 +2,6 @@
 """import os
 from dotenv import load_dotenv
 
-# Load environment variables from a .env file
 #load_dotenv()
 
 GROQ_API_KEY = "YOUR_API_KEY""
@@ -44,3 +43,4 @@ llm_config = {
     "temperature": 0.3,
     "max_tokens": 512,
 }
+
