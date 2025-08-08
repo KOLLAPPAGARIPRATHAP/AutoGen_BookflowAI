@@ -1,3 +1,5 @@
-autogen
-streamlit
-langchain_groq
+streamlit>=1.20.0
+autogen>=0.3.22
+langchain_groq>=0.0.6
+openai>=0.27.0
+python-dotenv>=0.21.0
