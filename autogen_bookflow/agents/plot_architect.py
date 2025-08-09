@@ -14,9 +14,10 @@ def create_plot_architect(genre: str):
     
     plot_architect = AssistantAgent(
         name="PlotArchitect",
-        llm_config=llm_config,  # Use the shared llm_config dictionary
+        llm_config=llm_config,  # config llm
         system_message=backstory
     )
     
 
     return plot_architect
+
