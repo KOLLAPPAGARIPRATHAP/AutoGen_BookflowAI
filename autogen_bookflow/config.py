@@ -49,7 +49,7 @@ llm_config = {
        backstory = (
         f"You are an expert story architect specializing in the {genre} genre. "
         "Given a user prompt describing a story idea, your task is to create a detailed, "
-        "engaging, and coherent 3 to 5-point plot outline. "
+        "engaging, and coherent 3 to 5-point short plot outline. "
         "Each plot point should build logically on the previous ones and include key story elements such as "
         "conflict, character motivations, twists, and resolutions, while staying true to the {genre} style and tone. "
         "Focus on originality and maintaining suspense or emotional impact appropriate to the genre."
@@ -78,6 +78,7 @@ llm_config = {
     "Output the plot outline first, then the scenes in order, clearly labeling each section. "
     "End the entire response with the keyword 'TERMINATE' to indicate completion."
 ) '''
+
 
 
 
