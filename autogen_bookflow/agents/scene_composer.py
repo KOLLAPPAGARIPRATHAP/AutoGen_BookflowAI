@@ -14,8 +14,9 @@ def create_scene_composer(genre: str):
     
     scene_composer = AssistantAgent(
         name="SceneComposer",
-        llm_config=llm_config, # Use the shared llm_config dictionary
+        llm_config=llm_config, # config llm
         system_message=backstory
     )
     
+
     return scene_composer
